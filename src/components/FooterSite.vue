@@ -67,9 +67,6 @@
                 </div>
 
                 <div class="pattern_logo">
-
-                    <img src="../assets/img/dc-logo-bg.png" alt="">
-
                 </div>
                 
             </div>
@@ -119,24 +116,36 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+
+    .container{
+        height: 100%;
+    }
     
     .useful_links{
         width: 30%;
+        padding: 20px 0;
         display: flex;
         justify-content: space-between;
+    }
+
+    h4{
+        line-height: 3rem;
     }
 
     ul{
         list-style: none;
         font-size: 0.6rem;
+        line-height: 1rem;
     }
 
     .pattern_logo{
-        width: 45%;
-
-        img {
-            width: 100%;
-        }
+        width: 42%;
+        height: 100%;
+        background-image: url(../assets/img/dc-logo-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
     }
 
 }

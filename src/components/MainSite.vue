@@ -89,6 +89,7 @@ export default {
     }
 
     .menu_card{
+        width: calc(100% / 6);
         display: flex;
         justify-content: space-between;
         align-items: center;

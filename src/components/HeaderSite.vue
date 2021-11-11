@@ -40,6 +40,14 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    a{
+        font-size: 0.7rem;
+        font-weight: 800;
+        color: darkslategray;
+        text-decoration: none;
+        margin: 0 12px;
+    }
 }
 
 </style>

@@ -26,4 +26,8 @@ export default {
   padding: 0;
 }
 
+#app{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 </style>

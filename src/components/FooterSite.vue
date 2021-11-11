@@ -79,10 +79,20 @@
             <div class="container">
 
                 <button class="sing_up">
-                    SING-UP NOW
+                    SING-UP NOW!
                 </button>
 
                 <div class="social">
+
+                    <div class="social_invite">
+                        FOLLOW US
+                    </div>
+
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
 
                 </div>
 
@@ -102,6 +112,7 @@ export default {
 <style lang="scss" scoped>
 .container{
     width: 70%;
+    height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -116,10 +127,6 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-
-    .container{
-        height: 100%;
-    }
     
     .useful_links{
         width: 30%;
@@ -145,9 +152,35 @@ export default {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        
     }
 
 }
+
+.icons_footer{
+    height: 100px;
+    font-weight: 600;
+
+    .container{
+        align-items: center;
+    }
+
+    .sing_up{
+        padding: 10px;
+        font-weight: 600;
+        background-color: transparent;
+    }
+
+    .social{
+        width: 28%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 30px;
+        }
+    }
+}
+
 
 </style>

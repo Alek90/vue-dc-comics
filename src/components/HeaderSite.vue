@@ -36,13 +36,18 @@ export default {
 <style lang="scss" scoped>
 .container{
     width: 70%;
+    height: 100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    .logo img{
+        width: 70px;
+    }
+
     a{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: 800;
         color: darkslategray;
         text-decoration: none;

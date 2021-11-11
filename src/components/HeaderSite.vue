@@ -1,7 +1,7 @@
 <template>
     <header id="site_header">
         <div class="logo">
-
+            <img src="../assets/img/dc-logo.png" alt="">
         </div>
 
         <nav id="site_menu">

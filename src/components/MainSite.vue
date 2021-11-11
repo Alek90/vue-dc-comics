@@ -15,10 +15,10 @@
 
         </div>
 
-
+        <MainMenu />
 
         <!-- menu del corpo della pagina -->
-        <nav class="main_menu">
+        <!-- <nav class="main_menu">
 
             <div class="container">
 
@@ -50,14 +50,20 @@
 
             </div>
 
-        </nav>
+        </nav> -->
 
     </main>
 </template>
 
+
 <script>
+import MainMenu from './MainMenu.vue'
+
 export default {
-    name: 'MaineSite'
+    name: 'MaineSite',
+    components: {
+        MainMenu
+    }
 }
 </script>
 
@@ -73,7 +79,7 @@ export default {
     line-height: 100px;
 }
 
-.main_menu{
+/* .main_menu{
     height: 135px;
     background-color: rgb(2, 130, 249);
     
@@ -81,7 +87,6 @@ export default {
     .container{
         height: 100%;
         display: flex;
-        
         justify-content: space-around;
         align-content: center;
     }
@@ -104,6 +109,6 @@ export default {
         text-decoration: none;
         color: white;
     }
-}
+} */
 
 </style>

@@ -37,6 +37,7 @@ export default {
 .container{
     width: 70%;
     height: 100px;
+    padding: 2px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -46,12 +47,24 @@ export default {
         width: 70px;
     }
 
+    nav{
+        height: 94px;
+    }
+
     a{
+        display: inline-block;
         font-size: 0.6rem;
         font-weight: 800;
-        color: darkslategray;
+        line-height: 94px;
+        color: rgb(70, 70, 70);
         text-decoration: none;
         margin: 0 12px;
+    }
+
+        
+    a:hover{
+        color: rgb(2, 130, 249);
+        border-bottom: 3px solid rgb(2, 130, 249);
     }
 }
 

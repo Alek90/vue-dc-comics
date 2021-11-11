@@ -48,12 +48,9 @@
                     <a href="">DC POWER VISA</a>
                 </div>
 
-                
-
             </div>
 
         </nav>
-
 
     </main>
 </template>
@@ -72,13 +69,13 @@ export default {
 }
 
 .jumbotron{
-    background-color: black;
+    background-color: rgb(28, 28, 28);
     line-height: 100px;
 }
 
 .main_menu{
     height: 135px;
-    background-color: blue;
+    background-color: rgb(2, 130, 249);
     
     
     .container{

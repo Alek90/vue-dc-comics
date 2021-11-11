@@ -116,7 +116,6 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-
 }
 
 .footer_main{
@@ -143,6 +142,7 @@ export default {
         list-style: none;
         font-size: 0.6rem;
         line-height: 1rem;
+        color: rgb(149, 149, 149);
     }
 
     .pattern_logo{
@@ -159,6 +159,7 @@ export default {
 .icons_footer{
     height: 100px;
     font-weight: 600;
+    background-color: rgb(48, 48, 48);
 
     .container{
         align-items: center;
@@ -167,11 +168,14 @@ export default {
     .sing_up{
         padding: 10px;
         font-weight: 600;
+        color: white;
         background-color: transparent;
+        border: 1px solid rgb(2, 130, 249);
     }
 
     .social{
         width: 28%;
+        color: rgb(2, 130, 249);
         display: flex;
         justify-content: space-between;
         align-items: center;

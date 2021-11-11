@@ -84,21 +84,24 @@ export default {
     .container{
         height: 100%;
         display: flex;
+        justify-content: space-between;
         align-content: center;
     }
 
     .menu_card{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
     img{
-        height: 40px;
+        max-width: 45px;
+        max-height: 45px;
+        margin: 0 10px;
     }
 
     a{
-        font-size: 0.8;
+        font-size: 0.7rem;
         text-decoration: none;
         color: white;
     }

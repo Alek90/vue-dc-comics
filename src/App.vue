@@ -12,15 +12,15 @@ import HeaderSite from './components/HeaderSite.vue'
 import MainSite from './components/MainSite.vue'
 import FooterSite from './components/FooterSite.vue'
 
-//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+
   name: 'App',
+  
   components: {
     HeaderSite,
     MainSite,
-    FooterSite
-   
+    FooterSite  
   }
 }
 </script>

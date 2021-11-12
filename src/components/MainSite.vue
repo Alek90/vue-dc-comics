@@ -2,20 +2,14 @@
     <main id="main_site">
 
             
-        <!-- provvisorio, da completare/riempire prossimamente -->
         <div class="jumbotron">
-
-            <!-- questo container potrebbe essere rimosso in fase di completamento del jumbotron -->
-
+            <!-- sfondo comics -->
         </div>
 
-
-
-
+        <!-- vetrina con le copertine delle serie correnti -->
         <ComicsSeries />
 
         
-
         <!-- menu del corpo della pagina -->
         <MainMenu />
 
@@ -41,7 +35,7 @@ export default {
     color: white;
 
     .jumbotron{
-        height: 400px;
+        height: 350px;
         background-image: url(../assets/img/jumbotron.jpg);
         background-size: cover;
         background-position: top;

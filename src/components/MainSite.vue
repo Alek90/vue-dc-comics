@@ -11,9 +11,12 @@
                 <!-- testo provvisorio -->
                 <h2>-->Content goes hear|--</h2>
 
+                <ComicsSeries />
+
             </div>
 
         </div>
+        
 
         <MainMenu />
 
@@ -57,11 +60,13 @@
 
 
 <script>
+import ComicsSeries from './ComicsSeries.vue'
 import MainMenu from './MainMenu.vue'
 
 export default {
     name: 'MaineSite',
     components: {
+        ComicsSeries,
         MainMenu
     }
 }

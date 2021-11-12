@@ -1,28 +1,31 @@
 <template>
-    <div> class="series">
+    <div class="series">
 
         <div class="covers">
-            <div class="cover" v-for="cover in covers" :key="cover.comic">
+           <!--  <div class="cover" v-for="cover in covers" :key="cover.comic">
 
                 <img :src="cover.thumb" :alt="comic.type">
                 <p class="comic_title">{{cover.series}}</p>
 
-            </div> 
+            </div>  -->
+            <ComicCover :v-for="comic in comics" :cover="comic.thumb" :series="comic.series" :key="cover.comic" />
         </div>
 
     </div>
 </template>
 
 <script>
+import ComicCover from './ComicCover.vue'
+
 export default {
-    
+
     name: 'ComicsSeries',
 
     data(){
 
         return{
 
-            covers: [
+            comics: [
                 {
                     thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
                     price: "$19.99",
@@ -97,6 +100,10 @@ export default {
                 }
             ]
         }
+    },
+
+    components: {
+        ComicCover
     }
 }
 </script>

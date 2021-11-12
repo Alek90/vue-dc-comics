@@ -1,7 +1,7 @@
 <template>
     <div class="series">
 
-        <div class="covers">
+        <div class="container">
            <!--  <div class="cover" v-for="cover in covers" :key="cover.comic">
 
                 <img :src="cover.thumb" :alt="comic.type">
@@ -111,11 +111,14 @@ export default {
 <style lang="scss" scoped>
 
 .series{
+
+    background-color: rgb(28, 28, 28);
     
-    .covers{
-        width: 100%;
+    .container{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+
     }
 }
 

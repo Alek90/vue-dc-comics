@@ -21,20 +21,21 @@ export default {
 </script>
 
 <style lang="scss">
-.comic_cover{
-    width: calc(100% / 6);
-    padding: 10px;
+ .comic_cover{
+    width: calc(100% / 7);
+    margin: 10px;
 
-    .card{
-        width: 100%;
-        position: relative;
+        .card{
+            width: 100%;
+            position: relative;
 
-    }
+        }
 
-    img{
-        width: 100%;
-    }
+        img{
+            width: 100%;
+        }
 
+        /* 
     p{
         width: 100%;
         background-color: rgb(28, 28, 28);
@@ -42,6 +43,6 @@ export default {
         bottom: 0;
         left: 0;
     }
+ */
 }
-
 </style>

@@ -34,6 +34,9 @@ export default {
 }
 
 #app{
+  min-width: 1300px;
+  max-width: 1600px;
+  margin: auto;
   font-family: Greta Sans Bold, Arial,sans-serif;
 }
 

@@ -78,7 +78,6 @@ export default {
 
     .jumbotron{
         background-color: rgb(28, 28, 28);
-        line-height: 100px;
     }
 
     /* .main_menu{

@@ -7,6 +7,7 @@
 
 <script>
 export default {
+    name: 'ComicCover',
     props:{
         cover: String,
         series: String
@@ -16,8 +17,11 @@ export default {
 
 <style lang="scss" scoped>
 .comic_cover{
-    width: 200px;
-    height: 300px;
+
+    img{
+        height: 200px;
+
+    }
 }
 
 </style>

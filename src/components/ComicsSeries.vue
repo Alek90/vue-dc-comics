@@ -8,7 +8,7 @@
                 <p class="comic_title">{{cover.series}}</p>
 
             </div>  -->
-            <ComicCover :v-for="comic in comics" :cover="comic.thumb" :series="comic.series" :key="cover.comic" />
+            <ComicCover v-for="comic in comics" :cover="comic.thumb" :series="comic.series" :key="comic.cover" />
         </div>
 
     </div>
@@ -111,12 +111,11 @@ export default {
 <style lang="scss" scoped>
 
 .series{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-
+    
     .covers{
-        width: 150px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 

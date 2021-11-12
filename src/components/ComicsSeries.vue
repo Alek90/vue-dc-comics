@@ -1,7 +1,11 @@
 <template>
-    <div class="series">
+    <div class="series_showcase">
 
         <div class="container">
+
+            <div class="title_showcase">
+                <h3>CURRENT SERIES</h3>
+            </div>
            
             <ComicCover v-for="comic in comics" :cover="comic.thumb" :series="comic.series" :key="comic.cover" />
 
@@ -112,21 +116,33 @@ export default {
 
 <style lang="scss" scoped>
 
-.series{
-
+.series_showcase{
+    padding: 40px 0 20px;
     background-color: rgb(28, 28, 28);
+    position: relative;
     
     .container{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        
 
+    }
+
+    .title_showcase{
+        padding: 0 30px;
+        line-height: 50px;
+        background-color: rgb(2, 130, 249);
+        position: absolute;
+        left: 230px;
+        top: 0;
+        transform: translate(0, -50%);
     }
 
     .brand_button{
         width: calc(100% / 7);
         padding: 10px;
-        margin: 25px auto;
+        margin: auto;
         color: white;
         background-color: rgb(2, 130, 249);
         border: none;

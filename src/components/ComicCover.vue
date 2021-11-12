@@ -1,7 +1,12 @@
 <template>
     <div class="comic_cover">
-        <img :src="cover" alt="">
-        <p>{{series}}</p>
+
+        <div class="card">
+
+            <img :src="cover" alt="">
+            <p>{{series}}</p>
+
+        </div>
     </div>
 </template>
 
@@ -15,12 +20,27 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .comic_cover{
+    width: calc(100% / 6);
+    padding: 10px;
+
+    .card{
+        width: 100%;
+        position: relative;
+
+    }
 
     img{
-        height: 200px;
+        width: 100%;
+    }
 
+    p{
+        width: 100%;
+        background-color: rgb(28, 28, 28);
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 }
 

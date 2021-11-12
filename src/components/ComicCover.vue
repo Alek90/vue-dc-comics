@@ -4,9 +4,15 @@
         <div class="card">
 
             <img :src="cover" alt="">
-            <p>{{series}}</p>
+
+            <div class="text_title">
+
+                <p>{{series}}</p>
+
+            </div>
 
         </div>
+        
     </div>
 </template>
 
@@ -35,14 +41,18 @@ export default {
             width: 100%;
         }
 
-        /* 
-    p{
-        width: 100%;
-        background-color: rgb(28, 28, 28);
-        position: absolute;
-        bottom: 0;
-        left: 0;
+        .text_title{
+            width: 100%;
+            height: 30%;
+            padding-top: 20px;
+            font-size: 0.9rem;
+            background-color: rgb(28, 28, 28);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+    
+       
     }
- */
-}
 </style>

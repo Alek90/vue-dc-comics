@@ -2,13 +2,15 @@
     <div class="series">
 
         <div class="container">
-           <!--  <div class="cover" v-for="cover in covers" :key="cover.comic">
-
-                <img :src="cover.thumb" :alt="comic.type">
-                <p class="comic_title">{{cover.series}}</p>
-
-            </div>  -->
+           
             <ComicCover v-for="comic in comics" :cover="comic.thumb" :series="comic.series" :key="comic.cover" />
+
+            <button class="brand_button">
+                
+                LOAD MORE
+
+            </button>
+
         </div>
 
     </div>
@@ -119,6 +121,15 @@ export default {
         flex-wrap: wrap;
         justify-content: space-between;
 
+    }
+
+    .brand_button{
+        width: calc(100% / 7);
+        padding: 10px;
+        margin: 25px auto;
+        color: white;
+        background-color: rgb(2, 130, 249);
+        border: none;
     }
 }
 

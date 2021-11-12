@@ -110,4 +110,15 @@ export default {
 
 <style lang="scss" scoped>
 
+.series{
+    width: 100%;
+    background-color: fuchsia;
+    display: flex;
+    flex-wrap: wrap;
+
+    .covers{
+        width: 150px;
+    }
+}
+
 </style>

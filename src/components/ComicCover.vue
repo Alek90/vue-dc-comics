@@ -15,5 +15,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.comic_cover{
+    width: 200px;
+    height: 300px;
+}
 
 </style>

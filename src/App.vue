@@ -34,7 +34,7 @@ export default {
 }
 
 #app{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Greta Sans Bold, Arial,sans-serif;
 }
 
 .container{

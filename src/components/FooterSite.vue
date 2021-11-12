@@ -134,10 +134,6 @@ export default {
 
     h4{
         line-height: 3rem;
-
-        &:hover{
-            text-decoration: underline;
-        }
     }
 
     ul{
@@ -147,7 +143,7 @@ export default {
         color: rgb(149, 149, 149);
 
         li:hover{
-            color: white;
+            color: rgb(2, 130, 249);
         }
     }
 
@@ -196,9 +192,8 @@ export default {
             width: 30px;
 
             &:hover{
-                width: 35px;
+                opacity: (70%);
                 border-radius: 50%;
-                /* border: 2px solid white; */
                 box-shadow: 0 0 1px 1px rgb(2, 130, 249), 0 0 3px 3px white;
             }
         }

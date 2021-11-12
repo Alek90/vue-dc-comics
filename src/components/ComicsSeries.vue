@@ -112,7 +112,6 @@ export default {
 
 .series{
     width: 100%;
-    background-color: fuchsia;
     display: flex;
     flex-wrap: wrap;
 

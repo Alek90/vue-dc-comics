@@ -47,13 +47,8 @@ export default {
     height: 135px;
     background-color: rgb(2, 130, 249);
 
-    
-    
     .container{
-        width: 70%;
         height: 100%;
-        margin: auto;
-        color: white;
         display: flex;
         justify-content: space-around;
         align-content: center;
@@ -64,6 +59,21 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &:hover{
+            background-color: rgb(2, 130, 249);
+        }
+
+        &:hover img{
+            max-width: 55px;
+            max-height: 55px;
+        }
+
+        &:hover a{
+            font-size: 0.8;
+            font-weight: 800;
+            text-decoration: underline;
+        }
     }
 
     img{

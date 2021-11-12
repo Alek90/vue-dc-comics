@@ -111,9 +111,7 @@ export default {
 
 <style lang="scss" scoped>
 .container{
-    width: 70%;
     height: 100%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -121,7 +119,7 @@ export default {
 .footer_main{
     height: 300px;
     color: white;
-    background-color: darkslategray;
+    background-color: rgb(48, 48, 48);
     background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,6 +134,10 @@ export default {
 
     h4{
         line-height: 3rem;
+
+        &:hover{
+            text-decoration: underline;
+        }
     }
 
     ul{
@@ -143,6 +145,10 @@ export default {
         font-size: 0.6rem;
         line-height: 1rem;
         color: rgb(149, 149, 149);
+
+        li:hover{
+            color: white;
+        }
     }
 
     .pattern_logo{
@@ -171,6 +177,12 @@ export default {
         color: white;
         background-color: transparent;
         border: 1px solid rgb(2, 130, 249);
+
+        &:hover{
+            background-color: rgb(2, 130, 249);
+            box-shadow: 0 0 2px 2px white;
+           
+        }
     }
 
     .social{
@@ -182,6 +194,13 @@ export default {
 
         img{
             width: 30px;
+
+            &:hover{
+                width: 35px;
+                border-radius: 50%;
+                /* border: 2px solid white; */
+                box-shadow: 0 0 1px 1px rgb(2, 130, 249), 0 0 3px 3px white;
+            }
         }
     }
 }

@@ -37,4 +37,9 @@ export default {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+  width: 70%;
+  margin: auto;
+}
+
 </style>

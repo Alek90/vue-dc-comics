@@ -35,10 +35,8 @@ export default {
 
 <style lang="scss" scoped>
 .container{
-    width: 70%;
     height: 100px;
     padding: 2px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,13 +57,14 @@ export default {
         color: rgb(70, 70, 70);
         text-decoration: none;
         margin: 0 12px;
+
+        &:hover{
+            color: rgb(2, 130, 249);
+            border-bottom: 3px solid rgb(2, 130, 249);
+        }
     }
 
         
-    a:hover{
-        color: rgb(2, 130, 249);
-        border-bottom: 3px solid rgb(2, 130, 249);
-    }
 }
 
 </style>

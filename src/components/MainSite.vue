@@ -68,47 +68,45 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container{
-    width: 70%;
-    margin: auto;
+#main_site{
     color: white;
+
+    .jumbotron{
+        background-color: rgb(28, 28, 28);
+        line-height: 100px;
+    }
+
+    /* .main_menu{
+        height: 135px;
+        background-color: rgb(2, 130, 249);
+        
+        
+        .container{
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+        }
+
+        .menu_card{
+            width: calc(100% / 6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img{
+            max-width: 45px;
+            max-height: 45px;
+            margin-right: 8px;
+        }
+
+        a{
+            font-size: 0.7rem;
+            text-decoration: none;
+            color: white;
+        }
+    } */
 }
-
-.jumbotron{
-    background-color: rgb(28, 28, 28);
-    line-height: 100px;
-}
-
-/* .main_menu{
-    height: 135px;
-    background-color: rgb(2, 130, 249);
-    
-    
-    .container{
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
-    }
-
-    .menu_card{
-        width: calc(100% / 6);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    img{
-        max-width: 45px;
-        max-height: 45px;
-        margin-right: 8px;
-    }
-
-    a{
-        font-size: 0.7rem;
-        text-decoration: none;
-        color: white;
-    }
-} */
 
 </style>
